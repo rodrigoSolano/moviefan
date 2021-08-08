@@ -1,7 +1,6 @@
 import Carousel from "react-multi-carousel";
 import MovieVideoCard from "../components/MovieVideoCard";
 import styled from "styled-components";
-import useWindowSize from "../hooks/useWindowSize";
 
 const CarouselContainer = styled.div`
   width: 100%;
@@ -19,7 +18,6 @@ const CarouselContainer = styled.div`
 `;
 
 const CarouselMovieVideoCard = ({ movies }) => {
-  const size = useWindowSize();
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.

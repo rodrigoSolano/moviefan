@@ -77,18 +77,18 @@ const Categories = () => {
               </div>
               <div className="dropdown-menu" id="dropdown-menu" role="menu">
                 <div className="dropdown-content">
-                  <a className="dropdown-item" href="#" onClick={changeFilter}>
+                  <p className="dropdown-item" href="#" onClick={changeFilter}>
                     Fecha de estreno ascendente
-                  </a>
-                  <a className="dropdown-item " href="#" onClick={changeFilter}>
+                  </p>
+                  <p className="dropdown-item " href="#" onClick={changeFilter}>
                     Fecha de estreno descendente
-                  </a>
-                  <a className="dropdown-item" href="#" onClick={changeFilter}>
+                  </p>
+                  <p className="dropdown-item" href="#" onClick={changeFilter}>
                     Popularidad ascendente
-                  </a>
-                  <a className="dropdown-item" href="#" onClick={changeFilter}>
+                  </p>
+                  <p className="dropdown-item" href="#" onClick={changeFilter}>
                     Popularidad descendente
-                  </a>
+                  </p>
                 </div>
               </div>
             </div>

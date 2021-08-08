@@ -1,12 +1,12 @@
 import "react-circular-progressbar/dist/styles.css";
 import "boxicons";
 
-import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 import CarouselMovieCard from "../components/CarouselMovieCard";
 import { CircularProgressbar } from "react-circular-progressbar";
 import YouTube from "react-youtube";
+import { useParams } from "react-router-dom";
 
 const Movie = () => {
   let { id } = useParams();
